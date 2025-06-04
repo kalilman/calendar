@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calendar UI</title>
+  <link href="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/main.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Calendar</h1>
+  </header>
+  <div id="calendar"></div>
+
+  <div id="event-modal" class="modal hidden">
+    <div class="modal-content">
+      <label>Title: <input type="text" id="event-title"></label>
+      <label>Start: <input type="datetime-local" id="event-start"></label>
+      <label>End: <input type="datetime-local" id="event-end"></label>
+      <button id="save-event">Save</button>
+      <button id="cancel-event">Cancel</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/fullcalendar@6.1.4/main.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
