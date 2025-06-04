@@ -1,0 +1,10 @@
+Feature,MoSCoW
+Scheduling algorithm,M
+Event CRUD,M
+User authentication,M
+Study agent,M
+Push notifications,S
+Offline support,S
+Analytics dashboard,C
+Monetisation module,C
+Mood/Energy logger,W
